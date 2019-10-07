@@ -1,0 +1,75 @@
+
+/* General page styles */
+
+html {
+    font-size: 10px;
+    color: #2d3c49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header styles */
+
+header {
+    padding: 2em;
+    border-bottom: 3px solid #7d97ad;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-title {
+    text-align: right;
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin: 0;
+}
+header p {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Main image style */
+
+section {
+    padding: 2em 0;
+}
+
+/* Flexbox styles for featured work */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;      
+    justify-content: space-between;      
+    text-align: center;
+}
+
+.project {
+    flex: 1 300px;    
+    max-width: 300px;
+}
+
+
+main h2 {
+    font-size: 2.5em;
+}
+
+main p{
+    font-size: 1.8em;
+}
+
+main a{
+    margin-bottom: 1em;
+    display: inline-block;
+}
